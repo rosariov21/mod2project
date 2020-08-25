@@ -1,38 +1,156 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+
+font-style: italic;
+background-color: beige;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+ol{
+  /* height: 500px;
+  width: 600px;
+  border: solid lawngreen;
+  margin-top: auto; */
+  /* padding: 25px; */
+  /* flex: display;
+  display: inline; */
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ol{
+  height: max-content;
+  width:800px;
+  border: solid black;
+  margin: auto;
+  padding: 25px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+p{
+  font-size: 100px;
+
+  
+}
+
+li{
+  display: inline;
+  margin: 20px;
+}
+
+
+button:hover{
+  background-color: grey;
+  font-size: 30px;
+  border-radius: 360px;
+  cursor: pointer;
+  
+}
+
+button{
+  background-color: steelblue;
+  color: blanchedalmond;
+  border-radius: 360px;
+  font-size: 30px;
+  box-shadow: 0 0 35px;
+}
+ul{
+  border: solid 10px navajowhite;
+  padding: 20px;
+  box-shadow: 0 0 105px;
+}
+
+.searchBox{
+  font-size: 30px;
+}
+
+BeerImg{
+  height: min-content;
+  width: 45px;
+ 
+}
+
+buttonForSignUp{
+  
+  background-color: cornflowerblue;
+  cursor: pointer;
+  
+  
+}
+input{
+  font-size: 45px;
+}
+
+.sign-Up-Description{
+  color:brown;
+}
+.buttonForSignUp{
+  border-radius: 360px;
+  font-size: 45px;
+  cursor: pointer;
+}
+
+.navBar{
+ font-size: 35px;
+ color: brown;
+ padding: 20px;
+ text-decoration: none;
+}
+.navBar:hover{
+  color: brown;
+}
+p{
+  color: brown;
+}
+h4{
+  color: brown;
+}
+h1{
+  color: brown;
+}
+.slogan{
+  color: brown;
+}
+.description{
+  color: brown;
+  font-size: 20px;
+}
+/* .signUpParent{
+  border: solid cornflowerblue;
+  height: 100px;
+} */
+
+form{
+  border: solid cornflowerblue;
+  width: 600px;
+  height: 300px;
+  margin: auto;
+  padding: 55px;
+  border-radius: 360px;
+  font-weight: 100px;
+  border-width: 55px;
+  box-shadow:  0 0 50px ;
+}
+
+.bigParent{
+  box-shadow: 0 0 15px ; 
+}
+.Footer{
+  background-color:burlywood;
+}
+
+.footerParent{
+
+width: max;
+height: max;
+margin: auto;
+border: seashell;
+
+
+}
+.InstructionsParent ol{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
